@@ -9,3 +9,15 @@ Our program should take a glass plate image as input and produce a single color 
 Example image are shown in Figure below:
 
 ![alt text](https://github.com/KNITPhoenix/Colorizing-the-Prokudin-Gorskii-photo-collection/blob/main/image1.jpg?raw=true)
+
+Initially, the program seperates the 3 frames of Blue, Green and Red and align all the three roughly one above the other. The result of the simple is given below:
+
+![alt text](https://github.com/KNITPhoenix/Colorizing-the-Prokudin-Gorskii-photo-collection/blob/main/results/image1-color.jpg?raw=true)
+
+Then im_align1.m will use SSD algorithm to align the frames and produce the following result which is much better:
+
+![alt text](https://github.com/KNITPhoenix/Colorizing-the-Prokudin-Gorskii-photo-collection/blob/main/results/image1-ssd.jpg?raw=true)
+
+Finally, im_align2.m uses NCC to align the frames to produce far better result shown below:
+
+![alt text](https://github.com/KNITPhoenix/Colorizing-the-Prokudin-Gorskii-photo-collection/blob/main/results/image1-ncc.jpg?raw=true)
