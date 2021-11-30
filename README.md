@@ -6,6 +6,6 @@ The goal of this project is to digitized Prokudin-Gorskii glass plate images and
 
 Our program should take a glass plate image as input and produce a single color image as output. The program will divide the image into three equal parts and align the second and the third parts (G and R) to the first (B). For each image, we will also print the (x,y) displacement vector that was used to align the parts. Detailed description is below. 
 
-Example images are shown in Figure below:
+Example image are shown in Figure below:
 
 ![alt text](https://github.com/KNITPhoenix/Colorizing-the-Prokudin-Gorskii-photo-collection/blob/main/image1.jpg?raw=true)
