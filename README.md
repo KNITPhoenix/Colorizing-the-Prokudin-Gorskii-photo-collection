@@ -8,3 +8,4 @@ Our program should take a glass plate image as input and produce a single color 
 
 Example images are shown in Figure below:
 
+![alt text](https://github.com/KNITPhoenix/Colorizing-the-Prokudin-Gorskii-photo-collection/blob/main/image1.jpg?raw=true)
